@@ -1,0 +1,86 @@
+{
+    "driver_name" : "icl",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10382",
+            "type" : "command line remark",
+            "msg" : "option '\/QxHOST' setting '\/QxCORE-AVX2'"
+        },
+        {
+            "diagnostic_num" : "10006",
+            "type" : "command line warning",
+            "msg" : "ignoring unknown option '\/utf-8'"
+        }
+    ],
+    "options" : [ "/I../../common", "/I../../i18n", "/I./../toolutil", "/I.", "/Ot", "/Oi", "/QxHost", "/Qipo", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Quse-intel-optimized-headers", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qoverride-limits", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/Qfnalign", "/Qms2", "/Qoption,cpp,--unicode_source_kind,UTF-8", "/arch:AVX2", "/Ox", "/DHAVE_DLOPEN=0", "/DU_HAVE_MMAP=0", "/DU_HAVE_POPEN=0", "/DU_HAVE_STRTOD_L=0", "/DU_RELEASE=1", "/D_CRT_SECURE_NO_DEPRECATE", "/DU_ATTRIBUTE_DEPRECATED=", "/DWIN32", "/DCYGWINMSVC", "/DT_CTEST_IMPLEMENTATION", "/W4", "/W4", "/GF", "/nologo", "/utf-8", "/c", "/Foctest.o" ],
+    "objects" : [
+        {
+            "object_name" : "ctest.o",
+            "source_name" : "ctest.c",
+            "start_time" : "2019-07-14T19:46:57Z",
+            "messages" : [
+                {
+                    "msg" : "parameter \"context\" was never referenced\n  static void U_CALLCONV TraceEntry(const void *context, int32_t fnNumber) {\n                                                ^",
+                    "line" : "893",
+                    "diagnostic_num" : "869",
+                    "file" : "ctest.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "parameter \"context\" was never referenced\n  static void U_CALLCONV TraceExit(const void *context, int32_t fnNumber, const char *fmt, va_list args) {    char buf[500];\n                                               ^",
+                    "line" : "900",
+                    "diagnostic_num" : "869",
+                    "file" : "ctest.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "parameter \"context\" was never referenced\n  static void U_CALLCONV TraceData(const void *context, int32_t fnNumber,\n                                               ^",
+                    "line" : "913",
+                    "diagnostic_num" : "869",
+                    "file" : "ctest.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "parameter \"fnNumber\" was never referenced\n  static void U_CALLCONV TraceData(const void *context, int32_t fnNumber,\n                                                                ^",
+                    "line" : "913",
+                    "diagnostic_num" : "869",
+                    "file" : "ctest.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "parameter \"level\" was never referenced\n                            int32_t level, const char *fmt, va_list args) {\n                                    ^",
+                    "line" : "914",
+                    "diagnostic_num" : "869",
+                    "file" : "ctest.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "parameter \"context\" was never referenced\n  static void *U_CALLCONV ctest_libMalloc(const void *context, size_t size) {\n                                                      ^",
+                    "line" : "922",
+                    "diagnostic_num" : "869",
+                    "file" : "ctest.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "parameter \"context\" was never referenced\n  static void *U_CALLCONV ctest_libRealloc(const void *context, void *mem, size_t size) {\n                                                       ^",
+                    "line" : "931",
+                    "diagnostic_num" : "869",
+                    "file" : "ctest.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "parameter \"context\" was never referenced\n  static void U_CALLCONV ctest_libFree(const void *context, void *mem) {\n                                                   ^",
+                    "line" : "941",
+                    "diagnostic_num" : "869",
+                    "file" : "ctest.c",
+                    "type" : "remark"
+                }
+            ],
+            "end_time" : "2019-07-14T19:46:59Z"
+        }
+    ]
+}
+:46:57Z"
+        }
+    ]
+}

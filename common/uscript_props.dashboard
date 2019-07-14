@@ -1,0 +1,19 @@
+{
+    "driver_name" : "icl",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10006",
+            "type" : "command line warning",
+            "msg" : "ignoring unknown option '\/utf-8'"
+        }
+    ],
+    "options" : [ "/I.", "/Ot", "/Oi", "/QxHost", "/Qipo", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Quse-intel-optimized-headers", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qoverride-limits", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/Qfnalign", "/Qms2", "/Qoption,cpp,--unicode_source_kind,UTF-8", "/arch:AVX2", "/Ox", "/DHAVE_DLOPEN=0", "/DU_HAVE_MMAP=0", "/DU_HAVE_POPEN=0", "/DU_HAVE_STRTOD_L=0", "/DU_RELEASE=1", "/D_CRT_SECURE_NO_DEPRECATE", "/DDEFAULT_ICU_PLUGINS="C:/mozilla-build/msys/local/lib/icu"", "/DU_ATTRIBUTE_DEPRECATED=", "/DWIN32", "/DCYGWINMSVC", "/DU_COMMON_IMPLEMENTATION", "/GF", "/nologo", "/EHs", "/EHc", "/Zc:wchar_t", "/utf-8", "/c", "/Fouscript_props.o" ],
+    "objects" : [
+        {
+            "object_name" : "uscript_props.o",
+            "source_name" : "uscript_props.cpp",
+            "start_time" : "2019-07-14T19:39:29Z",
+            "end_time" : "2019-07-14T19:39:30Z"
+        }
+    ]
+}
